@@ -4,4 +4,4 @@ venv/
 .venv/
 # Visual Studio
 .vscode/
-
+*.pyc

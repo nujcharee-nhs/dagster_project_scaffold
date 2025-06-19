@@ -1,0 +1,5 @@
+load_from:
+  - python_file:
+      working_directory: quickstart\
+      executable_path: venv\Scripts\python
+      location_name: dagster_project_scaffold

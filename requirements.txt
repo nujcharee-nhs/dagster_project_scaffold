@@ -14,6 +14,7 @@ dagster-graphql==1.10.19
 dagster-pipes==1.10.19
 dagster-webserver==1.10.19
 dagster_shared==1.10.19
+dagster-aws==0.26.20
 docstring_parser==0.16
 filelock==3.18.0
 fsspec==2025.5.1
