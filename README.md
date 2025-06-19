@@ -61,6 +61,14 @@ Run locally using this command
 dagster dev 
 ```
 
+## Note
+When interact with AWS resource, need to `assume_role` as Data Engineer
+
+You must export `access_key`, `access_secret` and a`ccess_token`.
+
+Save it as a `credentials` file
+
+Put put it in `.aws` folder
 
 📚 Learning Resources
 I’ve followed:
