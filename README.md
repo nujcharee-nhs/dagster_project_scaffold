@@ -29,3 +29,42 @@ This project aligns to native Dagster component following **[Dagster University 
 - **GitHub Actions** or **pre-commit hooks** for CI/CD
 
 ## 📁 Project Structure
+```
+dagster_project_scaffold/
+├── dagster_project_scaffold/
+│ ├── init.py
+│ ├── assets/ # Software-defined assets
+│ ├── jobs/ # Job definitions
+│ ├── ops/ # Reusable ops
+│ ├── schedules/ # Schedules and sensors
+│ └── resources/ # External resources (e.g., S3, DB)
+├── tests/ # Unit and integration tests
+├── definitions.py # put dagster artefacts in Definition
+├── workspace.yaml
+├── dagster.yaml
+└── Dockerfile
+```
+
+## 🧪 Testing
+
+Run tests using `pytest` and Dagster's testing tools:
+
+```bash
+pytest tests/
+```
+
+## ☁️ Deployment Strategy
+Built and tested locally
+Run locally using this command
+
+```bash
+dagster dev 
+```
+
+
+📚 Learning Resources
+I’ve followed:
+
+- Dagster Docs
+- Deploying Dagster on AWS
+- Personal experimentation with AWS
