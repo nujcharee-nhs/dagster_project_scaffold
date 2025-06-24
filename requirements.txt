@@ -9,12 +9,12 @@ charset-normalizer==3.4.2
 click==8.1.8
 colorama==0.4.6
 coloredlogs==14.0
-dagster==1.10.19
+dagster~=1.10
+dagster-aws~=0.26
 dagster-graphql==1.10.19
 dagster-pipes==1.10.19
 dagster-webserver==1.10.19
 dagster_shared==1.10.19
-dagster-aws==0.26.20
 docstring_parser==0.16
 filelock==3.18.0
 fsspec==2025.5.1
