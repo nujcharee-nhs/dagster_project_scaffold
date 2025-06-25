@@ -29,4 +29,4 @@ RUN pip install --upgrade pip && \
 EXPOSE 3000
 
 # Default command to run Dagster web server
-CMD ["dagster", "dev", "-f", "quickstart_workspace.py"]
+CMD ["dagster", "dev", "-f", "quickstart/assets/s3.py"]
