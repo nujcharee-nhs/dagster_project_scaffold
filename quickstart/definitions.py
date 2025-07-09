@@ -8,7 +8,7 @@ def get_s3_defs():
         assets=load_assets_from_modules([s3, hello_world]),
         resources={
         "s3": S3AssumeRoleResource(
-            role_arn="arn:aws:iam::605134447797:role/DataEngineer",
+            role_arn="arn:aws:iam::605134447797:role/PlatformEngineer",
             session_name="dagster-session"
         )
     },
