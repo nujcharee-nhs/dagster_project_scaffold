@@ -1,7 +1,7 @@
 def get_s3_defs():
 
   from dagster import Definitions, load_assets_from_modules
-  from .assets import s3 
+  from .assets import s3, hello_world
   from .resources.assumed_role import S3AssumeRoleResource
   defs = Definitions(
 
