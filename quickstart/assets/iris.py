@@ -1,5 +1,5 @@
 import pandas as pd
-import dagster as dg
+from dagster import asset, AssetExecutionContext
 
 @dg.asset
 def load_iris_from_s3(context: AssetExecutionContext) -> pd.DataFrame:
