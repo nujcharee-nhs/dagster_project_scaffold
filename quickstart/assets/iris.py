@@ -4,7 +4,7 @@ import boto3
 from datetime import datetime
 
 @asset
-def load_iris_from_s3(context: AssetExecutionContext) -> pd.DataFrame:
+def load_iris_from_s3(context: AssetExecutionContext):
   s3 = boto3.client("s3")
   s3.copy_object(
         Bucket="ukhsa-dev-datalib-ingestion",
