@@ -10,7 +10,7 @@ def load_iris_from_s3(context: AssetExecutionContext) -> pd.DataFrame:
         Bucket="ukhsa-dev-datalib-ingestion",
         CopySource={
             "Bucket": "ukhsa-dev-datalib-ingestion",
-            "Key": "dagster/iris.csv"
+            "Key": "iris.csv"
         },
         Key=f"dagster/iris_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     )
