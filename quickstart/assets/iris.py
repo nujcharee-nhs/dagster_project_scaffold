@@ -1,7 +1,7 @@
 import pandas as pd
 from dagster import asset, AssetExecutionContext
 
-@dg.asset
+@asset
 def load_iris_from_s3(context: AssetExecutionContext) -> pd.DataFrame:
   s3 = boto3.client("s3")
   s3.copy_object(
